@@ -1,40 +1,18 @@
 
-#nav {
-    display: block;
-    background-color: white;
-    display: inline-block;
-    width: 96vw;
-    border: 3px solid #81505e;
-    border-radius: 5px;
-    margin: 6px;
-}
 
 /* main section */
 
 body {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url("../code-quiz/question.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
-.element {
-    width: 100%;
-    height: 100%;
-    animation: pulse 5s infinite;
-  }
-  
-  @keyframes pulse {
-    0% {
-      background-color: #d4a2cc;
-    }
-    100% {
-      background-color: #a53469;
-    }
-  }
-  
-  html,
-  body {
-    height: 100%;
-  }
+h2 {
+    font-size: 15px;
+}
 
 #quizBody {
     text-align: center;
@@ -52,7 +30,7 @@ a {
 
 button {
     border: none;
-    background-color: #351c23;
+    background-color: #000000;
     color: white;
     border-radius: 5px;
     padding: 10px 16px 10px 16px;
